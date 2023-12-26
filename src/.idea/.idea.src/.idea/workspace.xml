@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7e4f7f59-6590-45ba-9e86-607b39d2f9f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PaperAirplane.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PaperAirplane.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaneController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlaneController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/PanelSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Toolkit/PanelSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +41,13 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\xbl4z3r\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\xbl4z3r\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\xbl4z3r\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\xbl4z3r\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
       &quot;C:\\Users\\xbl4z3r\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
@@ -104,6 +102,8 @@
       <workItem from="1700695544921" duration="1215000" />
       <workItem from="1700755205489" duration="1274000" />
       <workItem from="1700863001368" duration="2089000" />
+      <workItem from="1701986084675" duration="1796000" />
+      <workItem from="1701987946482" duration="323000" />
     </task>
     <servers />
   </component>
