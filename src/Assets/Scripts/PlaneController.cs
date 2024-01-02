@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PaperController : MonoBehaviour
 {
-    public float initialThrust = 10f;
-    public float launchAngle = 70f;
+    public float initialThrust = 15f;
+    public float launchAngle = 65f;
     private Rigidbody _rb;
     private Vector3 _startPosition;
     private bool _onGround = true;
@@ -13,12 +13,12 @@ public class PaperController : MonoBehaviour
     private bool _canZoom = true;
 
     // Add drag and lift coefficients
-    public float dragCoefficient = 0.01f;
-    public float liftCoefficient = 0.02f;
+    public float dragCoefficient = 0.015f;
+    public float liftCoefficient = 0.024f;
     
     // Add wind and air resistance coefficients
-    public float windStrength = 0.02f;
-    public float airResistanceCoefficient = 0.01f;
+    public float windStrength = 0.03f;
+    public float airResistanceCoefficient = 0.005f;
     
     // Add a variable to represent the wind
     private Vector3 _wind;
