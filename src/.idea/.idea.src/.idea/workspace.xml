@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7e4f7f59-6590-45ba-9e86-607b39d2f9f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/PanelSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Toolkit/PanelSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +99,8 @@
       <workItem from="1700863001368" duration="2089000" />
       <workItem from="1701986084675" duration="1796000" />
       <workItem from="1701987946482" duration="323000" />
+      <workItem from="1703676919431" duration="5000" />
+      <workItem from="1703676938011" duration="79000" />
     </task>
     <servers />
   </component>

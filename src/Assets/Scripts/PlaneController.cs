@@ -42,8 +42,8 @@ public class PaperController : MonoBehaviour
         if (_canZoom) _zoom.m_MinFOV = Mathf.Lerp(_zoom.m_MinFOV, _onGround ? 10f : 30f, Time.deltaTime * 20f);
 
         // Rotate the paper to face the direction of the velocity
-        if (_rb.velocity.magnitude > 3.5f && !_onGround)
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(_rb.velocity),
+        if (_rb.linearVelocity.magnitude > 3.5f && !_onGround)
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(_rb.linearVelocity),
                 Time.deltaTime * 20f);
 
         if (_onGround)
@@ -52,22 +52,22 @@ public class PaperController : MonoBehaviour
         if (_onGround) return;
 
         // Add drag
-        var drag = -_rb.velocity.normalized * (_rb.velocity.sqrMagnitude * dragCoefficient);
+        var drag = -_rb.linearVelocity.normalized * (_rb.linearVelocity.sqrMagnitude * dragCoefficient);
         _rb.AddForce(drag);
 
         // Add lift
-        var lift = Vector3.up * (_rb.velocity.sqrMagnitude * liftCoefficient);
+        var lift = Vector3.up * (_rb.linearVelocity.sqrMagnitude * liftCoefficient);
         _rb.AddForce(lift);
         
         // Add wind
         _rb.AddForce(_wind);
 
         // Add air resistance
-        var airResistance = -_rb.velocity.normalized * (_rb.velocity.sqrMagnitude * airResistanceCoefficient);
+        var airResistance = -_rb.linearVelocity.normalized * (_rb.linearVelocity.sqrMagnitude * airResistanceCoefficient);
         _rb.AddForce(airResistance);
 
         // Draw the trajectory
-        var velocity = _rb.velocity;
+        var velocity = _rb.linearVelocity;
         var position = transform.position;
         for (var i = 0; i < 100; i++)
         {
@@ -95,7 +95,7 @@ public class PaperController : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.R))
         {
-            _rb.velocity = Vector3.zero;
+            _rb.linearVelocity = Vector3.zero;
             _rb.angularVelocity = Vector3.zero;
             transform.position = _startPosition;
             transform.rotation = Quaternion.identity;
